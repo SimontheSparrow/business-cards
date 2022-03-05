@@ -32,4 +32,4 @@ def create_contacts(card_type, number):
         new_card = card_type(fake.first_name(), fake.last_name(), fake.email(), fake.phone_number())
 
 
-create_contacts(BaseContact)
+create_contacts(BaseContact, 1)
